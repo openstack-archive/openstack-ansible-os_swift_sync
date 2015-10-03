@@ -1,5 +1,5 @@
 ---
-# Copyright 2014, Rackspace US, Inc.
+# Copyright 2015, Rackspace US, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,17 +13,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-- include: swift_command_check.yml
-
-- include: swift_key_setup.yml
+- name: Get swift command path
+  command: which swift
+  register: swift_command_path
+  when:
+    - not swift_venv_enabled | bool
   tags:
-    - swift-key
-    - swift-key-distribute
+    - swift-command-bin
 
-- include: swift_rings.yml
+- name: Set swift command path
+  set_fact:
+    swift_bin: "{{ swift_command_path.stdout | dirname }}"
+  when:
+    - not swift_venv_enabled | bool
   tags:
-    - swift-rings
-
-- include: swift_sync_post_install.yml
-  tags:
-    - swift-sync-post-install
+    - swift-command-bin
