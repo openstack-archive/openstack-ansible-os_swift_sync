@@ -1,6 +1,6 @@
-OpenStack swift key & ring sync
-###############################
-:tags: openstack, swift, cloud, ansible
+os_swift_sync
+########
+:tags: openstack, cloud, ansible
 :category: \*nix
 
 contributor guidelines
