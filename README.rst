@@ -1,18 +1,14 @@
-OpenStack swift key/ring sync
-#############################
-:tags: openstack, swift, cloud, ansible
+os_swift_sync role
+##################
+:tags: openstack, cloud, ansible, os_swift_sync
 :category: \*nix
 
-Role to synchronise keys and the ring for swift hosts
-
-This role will synchronise the following:
-    * ring
-    * ssh keys
+os_swift_sync Role
 
 .. code-block:: yaml
 
-    - name: Sync swift rings and keys
-      hosts: swift_all:swift_remote_all
+    - name: os_swift_sync role
+      hosts: "hosts"
       user: root
       roles:
-        - { role: "os_swift_sync", tags: [ "os-swift-sync" ] }
+        - { role: "os_swift_sync" }
