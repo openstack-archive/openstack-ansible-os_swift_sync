@@ -1,0 +1,9 @@
+Code-Review+2: Jesse Pretorius (odyssey4me) <jesse.pretorius@rackspace.co.uk>
+Code-Review+2: Matt Thompson <mattt@defunct.ca>
+Workflow+1: Matt Thompson <mattt@defunct.ca>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Wed, 02 Mar 2016 10:09:00 +0000
+Reviewed-on: https://review.openstack.org/286696
+Project: openstack/openstack-ansible-os_swift_sync
+Branch: refs/heads/master
