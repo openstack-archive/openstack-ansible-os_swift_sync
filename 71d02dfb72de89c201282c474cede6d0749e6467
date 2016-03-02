@@ -1,0 +1,9 @@
+Code-Review+2: Matt Thompson <mattt@defunct.ca>
+Code-Review+2: Travis Truman (automagically) <travis_truman@cable.comcast.com>
+Workflow+1: Travis Truman (automagically) <travis_truman@cable.comcast.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Wed, 02 Mar 2016 14:30:54 +0000
+Reviewed-on: https://review.openstack.org/287205
+Project: openstack/openstack-ansible-os_swift_sync
+Branch: refs/heads/master
