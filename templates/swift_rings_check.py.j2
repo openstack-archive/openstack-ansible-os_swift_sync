@@ -118,8 +118,8 @@ def check_ring(build_name, repl, min_part_hours, part_power, content_hosts,
         for ring_host in ring_hosts:
             if build_file_data['devs'][ring_hosts[ring_host]]['weight'] != 0:
                 raise RingComparisonError('There are devices in the ring that'
-                                          'are not in the inventory/contents'
-                                          'file.')
+                                          ' are not in the inventory/contents'
+                                          ' file.')
 
 
 def main(setup, region):
