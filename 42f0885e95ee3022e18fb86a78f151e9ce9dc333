@@ -1,0 +1,9 @@
+Code-Review+2: Travis Truman (automagically) <travis_truman@cable.comcast.com>
+Code-Review+2: Steve Lewis <steve.lewis@rackspace.com>
+Workflow+1: Steve Lewis <steve.lewis@rackspace.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Thu, 03 Mar 2016 20:01:17 +0000
+Reviewed-on: https://review.openstack.org/287892
+Project: openstack/openstack-ansible-os_swift_sync
+Branch: refs/heads/master
