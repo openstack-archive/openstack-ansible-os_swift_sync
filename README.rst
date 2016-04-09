@@ -1,14 +1,12 @@
-os_swift_sync role
-##################
-:tags: openstack, cloud, ansible, os_swift_sync
-:category: \*nix
+OpenStack-Ansible os_swift_sync role
+####################################
 
-os_swift_sync Role
+This Ansible role is no longer maintained or used.
 
-.. code-block:: yaml
+The content of this role have been merged into the OpenStack-Ansible
+os_swift role, rendering the inclusion of this additional role
+superfluous.
 
-    - name: os_swift_sync role
-      hosts: "hosts"
-      user: root
-      roles:
-        - { role: "os_swift_sync" }
+For any further questions, please email
+openstack-dev@lists.openstack.org or join #openstack-ansible on
+Freenode.
